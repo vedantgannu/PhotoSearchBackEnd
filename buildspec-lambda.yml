@@ -9,11 +9,11 @@ phases:
   build:
     commands:
       - echo "Zipping deployment package..."
-      - cd lib
+      - cd package-LF1-HW2
       - zip -r9 ../deployment-package-LF1-HW2.zip .
       - cd ..
       - zip -g deployment-package-LF1-HW2.zip LF1-HW2.py
 
 artifacts:
   files:
-    '**/*'
+    deployment-package-LF1-HW2.zip
