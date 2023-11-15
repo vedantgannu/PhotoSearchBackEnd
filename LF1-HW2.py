@@ -8,6 +8,10 @@ from dateutil.tz import tzutc
 import datetime
 import base64
 
+'''
+Change 1 to trigger LF1-HW2 code update
+'''
+
 
 region = 'us-east-2' # e.g. us-west-1
 service = 'es'

@@ -1,0 +1,7 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Updaing Lambda function"
+      - aws lambda update-function-code --function-name LF1-HW2 --zip-file fileb://deployment-package-LF1-HW2.zip --region=us-east-2
+      - echo "Lambda function updated"
